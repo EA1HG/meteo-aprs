@@ -1,5 +1,5 @@
 if [[ $EUID -ne 0 ]]; then
-	whiptail --title "Python APRS WX" --msgbox "Debe ejecutar este script como usuario ROOT" 0 50
+	whiptail --title "Python APRS WX EA1HG" --msgbox "Debe ejecutar este script como usuario ROOT" 0 50
 	exit 0
 fi
 #!/bin/bash
@@ -48,11 +48,11 @@ import socket
 import time
 import requests
 from datetime import datetime, timedelta
-################################################
+#####################################################
 # Python APRS Weather station by EA1HG
 # API source data https://openweathermap.org/
-# need register in https://openweathermap.org/ 
-################################################
+# se necesita registro enhttps://openweathermap.org/ 
+#####################################################
 
 callsign = "EA1XXX-13"       # Callsign (EA1XXX-13)
 password = "12345"           # aprspasscode (12345)
