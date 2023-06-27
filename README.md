@@ -40,7 +40,6 @@ Muy importante, cuando se registran o activan una apikey nueva  es total mente n
 Cada 10 minutos el software actualizara la información obtenida desde openweathermap , apenas la apikey este totalmente activa el software actualizara el beacon automáticamente
 
 
-
  MAPID
  
 Para identificar su mapid , busque el nombre de su ubicación deseada y seleccione el resultado de su ubicación , en la dirección url de su navegador , visualizara 7 dígitos al final de la url , estos números corresponden al mapid de la ubicación seleccionada, busque su ubicación en el siguiente link: [search mapid click here](https://openweathermap.org/find?q=salamanca)
@@ -57,12 +56,12 @@ Instalación
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/EA1HG/meteo-aprs/main/install.sh)"
 
 
-Configuración
+CONFIGURACION
 
 Al finalizar la instalación se abrirá el menú de configuración , solo debe seleccionar el numero de estación a editar , coloque su indicativo de estación , su aprs passcode , cordenadas , apikey y mapid , salve y ya podrá iniciar el numero de estación weather aprs .
 Si va habilitar mas de una estación weather , recuerde colocar un número de identificación distinto a cada estación , debe generar un numero de apikey distinto para cada estación y seleccionar un mapid distinto que coincida lo mas cercano a la ubicación de sus coordenadas de estación aprs weather.
 
-Menú
+MENU
 
 Para ingresar al menú de configuración  solo escriba en su consola terminal o cliente ssh : menu-py-wx
 
@@ -74,7 +73,7 @@ Ejemplo:
 40.50.63N
 005.03.05W
 
-Becon condiciones del clima
+Beacon condiciones del clima
 
 Adicional a los valores numéricos de temperatura , viento , lluvia y demás , Python APRS WX , envía mensaje de texto en el beacon , anunciando el nombre donde corresponde el mapid , y condiciones clima según radar meteorológico, este mensaje de beacon se actualizara de forma automática cada 10 minutos , en el lenguaje de su preferencia .
 De forma predeterminada el mensaje beacon de condiciones de clima se mostrar en español, puede cambiar el lenguaje del beacon de condiciones del clima en la opción lang
