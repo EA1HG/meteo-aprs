@@ -44,7 +44,7 @@ Instalación
 
  apt-get install curl sudo -y
 
- bash -c "$(curl -fsSL https://gitlab.com/hp3icc/python-aprs-wx/-/raw/main/installwx.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/EA1HG/meteo-aprs/main/install.sh)"
 
 
 Configuración
