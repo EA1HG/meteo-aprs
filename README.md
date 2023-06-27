@@ -5,11 +5,17 @@ La estación Weather APRS se actualizara cada 10 minutos, con información de op
 La información que muestra su estación meteorológica es la siguiente:
 
 •	Temperatura
+
 •	Humedad
+
 •	Presión Barómetro
+
 •	Dirección del viento
+
 •	Velocidad del viento
+
 •	Ráfagas de viento
+
 •	Lluvia equivalente a 1 hora
 
 Solo requiere estar registrado en openweathermap.org y generar un apikey por cada estación weather que desee habilitar.
@@ -81,5 +87,7 @@ Ubicación de archivos
 
 Cada beacon tiene su propio archivo y se diferencia numéricamente del 1 al 8 , en caso que su sistema operativo no sea compatible con servicios systemd, puede agregar a crontab para que se inicien automáticamente cuando inicie su equipo.
 Ejemplo :
+
 @reboot python3 /opt/python-wx/wx1.py
+
 @reboot python3 /opt/python-wx/wx2.py
