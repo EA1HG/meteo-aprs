@@ -35,7 +35,7 @@ Cada 10 minutos el software actualizara la información obtenida desde openweath
 
 
 mapid
-Para identificar su mapid , busque el nombre de su ubicación deseada y seleccione el resultado de su ubicación , en la dirección url de su navegador , visualizara 7 dígitos al final de la url , estos números corresponden al mapid de la ubicación seleccionada, busque su ubicación en el siguiente link: search mapid click here
+Para identificar su mapid , busque el nombre de su ubicación deseada y seleccione el resultado de su ubicación , en la dirección url de su navegador , visualizara 7 dígitos al final de la url , estos números corresponden al mapid de la ubicación seleccionada, busque su ubicación en el siguiente link: [search mapid click here](https://openweathermap.org/find?q=salamanca)
 Para verificar que su mapid contiene todos los sensores, puede ingresar al siguiente link y coloque su mapid y apykey para visualizar la información de los sensores :
 
 https://api.openweathermap.org/data/2.5/weather?id=3703443&appid=API-key
