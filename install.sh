@@ -1,5 +1,5 @@
 if [[ $EUID -ne 0 ]]; then
-	whiptail --title "Python APRS WX EA1HG" --msgbox "Debe ejecutar este script como usuario ROOT" 0 50
+	whiptail --title "METEO APRS WX EA1HG" --msgbox "Debe ejecutar este script como usuario ROOT" 0 50
 	exit 0
 fi
 #!/bin/bash
