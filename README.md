@@ -3,6 +3,7 @@
 Python APRS WX , permite crear estaciones weather virtuales conectadas a la red aprs , la fuente de los valores de su estación virtual weather , es suplida por openweathermap.org .
 La estación Weather APRS se actualizara cada 10 minutos, con información de openweathermap.org
 La información que muestra su estación meteorológica es la siguiente:
+
 •	Temperatura
 •	Humedad
 •	Presión Barómetro
@@ -10,6 +11,7 @@ La información que muestra su estación meteorológica es la siguiente:
 •	Velocidad del viento
 •	Ráfagas de viento
 •	Lluvia equivalente a 1 hora
+
 Solo requiere estar registrado en openweathermap.org y generar un apikey por cada estación weather que desee habilitar.
 Puede habilitar hasta 12 estaciones meteorológicas aprs
 Las coordenadas que configure será la ubicación de su estación APRS Weather en el mapa de aprs.fi
