@@ -24,6 +24,7 @@ Ejemplo de archivo json:
 ![json](https://github.com/EA1HG/meteo-aprs/assets/6223547/811b143c-5fcf-4efb-b8ec-d12e518d7e87)
 
 APIKEY
+
 Para que el software tenga acceso a los datos de openweathermap , debe obtener una llave, llamadas apikey , esto es posible una ves este registrado en openweather map , se recomienda generar un código apikey, por cada estación weather que se active, para evitar conflictos de acceso al momento de descargar la información para acualizar los beacon.
 
 
@@ -51,6 +52,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/EA1HG/meteo-aprs/main/in
 
 
 Configuración
+
 Al finalizar la instalación se abrirá el menú de configuración , solo debe seleccionar el numero de estación a editar , coloque su indicativo de estación , su aprs passcode , cordenadas , apikey y mapid , salve y ya podrá iniciar el numero de estación weather aprs .
 Si va habilitar mas de una estación weather , recuerde colocar un número de identificación distinto a cada estación , debe generar un numero de apikey distinto para cada estación y seleccionar un mapid distinto que coincida lo mas cercano a la ubicación de sus coordenadas de estación aprs weather.
 
@@ -59,6 +61,7 @@ Menú
 Para ingresar al menú de configuración  solo escriba en su consola terminal o cliente ssh : menu-py-wx
 
 Coordenadas
+
 El formato de coordenadas es grados minutos segundos si requiere convertir sus coordenadas de formato decimal a grados minutos segundos puede utilizar el siguiente link :
 https://sig.rocha.gub.uy/sig/coordenadas/
 Ejemplo:
@@ -66,13 +69,17 @@ Ejemplo:
 005.03.05W
 
 Becon condiciones del clima
+
 Adicional a los valores numéricos de temperatura , viento , lluvia y demás , Python APRS WX , envía mensaje de texto en el beacon , anunciando el nombre donde corresponde el mapid , y condiciones clima según radar meteorológico, este mensaje de beacon se actualizara de forma automática cada 10 minutos , en el lenguaje de su preferencia .
 De forma predeterminada el mensaje beacon de condiciones de clima se mostrar en español, puede cambiar el lenguaje del beacon de condiciones del clima en la opción lang
 Ejemplo de selección de lenguaje en español  :  lang = "es"
 Puede visualizar el listado completo de lenguajes disponibles, en el siguiente link  : https://openweathermap.org/current#multi
 
 Ubicación de archivos
+
 /opt/python-wx/wx1.py
+
 Cada beacon tiene su propio archivo y se diferencia numéricamente del 1 al 8 , en caso que su sistema operativo no sea compatible con servicios systemd, puede agregar a crontab para que se inicien automáticamente cuando inicie su equipo.
 Ejemplo :
 @reboot python3 /opt/python-wx/wx1.py
+@reboot python3 /opt/python-wx/wx2.py
