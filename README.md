@@ -23,7 +23,7 @@ Ejemplo de archivo json:
 
 ![json](https://github.com/EA1HG/meteo-aprs/assets/6223547/811b143c-5fcf-4efb-b8ec-d12e518d7e87)
 
-apikey
+APIKEY
 Para que el software tenga acceso a los datos de openweathermap , debe obtener una llave, llamadas apikey , esto es posible una ves este registrado en openweather map , se recomienda generar un código apikey, por cada estación weather que se active, para evitar conflictos de acceso al momento de descargar la información para acualizar los beacon.
 
 
