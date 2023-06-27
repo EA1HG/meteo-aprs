@@ -16,7 +16,7 @@ Solo requiere estar registrado en openweathermap.org y generar un apikey por cad
 Puede habilitar hasta 12 estaciones meteorológicas aprs
 Las coordenadas que configure será la ubicación de su estación APRS Weather en el mapa de aprs.fi
 La información meteorológica de su estación APRS Weather , corresponde al mapid que usted selecione, procure seleccionar el numero map id mas cercano a las coordenadas de su estación APRS Weather .
-Para para obtener su apikey regístrese en el siguiente link: Register OpenWeatherMap click here
+Para para obtener su apikey regístrese en el siguiente link: [Register OpenWeatherMap click here](https://home.openweathermap.org/users/sign_up)
 No todos los monitores meteorologicos de openweathermap.org contienen la misma cantidad de sensores, algunos no tiene medidor de lluvia , otros no tienen medidor de ráfagas de viento ,puede verificar en su navegador web, la información que contenga el archivo json de su mapid seleccionado, los valore no encontrados, seran remplazos por el valor predeterminado (000) y su estacion APRS Weather continuara funcionando de manera corecta, con con los valores existentes el el el archivo json del mapid selecionado
 
 Ejemplo de archivo json:
