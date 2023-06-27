@@ -150,7 +150,7 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 while : ; do
-choix=$(whiptail --title "Raspbian Proyect HP3ICC Menu Python-WX" --menu "Suba o Baje con las flechas del teclado y seleccione el numero de opcion:" 23 56 15 \
+choix=$(whiptail --title "Menu EA1HG Python-WX" --menu "Suba o Baje con las flechas del teclado y seleccione el numero de opcion:" 23 56 15 \
 1 " Editar WX-1 " \
 2 " Editar WX-2 " \
 3 " Editar WX-3 " \
