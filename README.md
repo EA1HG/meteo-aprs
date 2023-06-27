@@ -27,7 +27,7 @@ apikey
 Para que el software tenga acceso a los datos de openweathermap , debe obtener una llave, llamadas apikey , esto es posible una ves este registrado en openweather map , se recomienda generar un código apikey, por cada estación weather que se active, para evitar conflictos de acceso al momento de descargar la información para acualizar los beacon.
 
 
-Muy importante, cuando se registran o activan una apikey nueva  es total mente normal, visualizar en aprs.fi, el beacon “Data Weather not found” , esto sucede porque las apikey nuevas toman entre 20 minutos hasta 1 hora y media, en activarse completamente en la base de datos de openweathermap
+Muy importante, cuando se registran o activan una apikey nueva  es total mente normal, visualizar en aprs.fi, el beacon “Data Weather not found” , esto sucede porque las apikey nuevas toman entre 20 minutos hasta 1 hora y media, en ocasiones hasta 24 horas, por tanto no pienses que no funciona, aveces tarda en activarse completamente en la base de datos de openweathermap
 
 
 Cada 10 minutos el software actualizara la información obtenida desde openweathermap , apenas la apikey este totalmente activa el software actualizara el beacon automáticamente
